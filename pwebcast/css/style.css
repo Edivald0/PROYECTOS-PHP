@@ -1,0 +1,241 @@
+body{
+	padding:0px; 
+	margin:0px; 
+	background-color:#fff;
+	font-family:'Open Sans',sans-serif,arial,helvetica,verdana;
+
+}
+
+/********************************************/
+/*					SLIDER					*/
+/********************************************/
+.jssorb05 {
+	position: absolute;
+	bottom:16px;
+	right:16px;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 16px;
+	height: 16px;
+	background: url('img/b05.png') no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+.jssorb05 div { 
+	background-position: -7px -7px; 
+}
+.jssorb05 div:hover, .jssorb05 .av:hover { 
+	background-position: -37px -7px; 
+}
+.jssorb05 .av { 
+	background-position: -67px -7px; 
+}
+.jssorb05 .dn, .jssorb05 .dn:hover {
+	background-position: -97px -7px; 
+}
+.jssora031 {
+	display:block;
+	position:absolute;
+	cursor:pointer;
+
+}
+.arrowleft{
+	width:50px;
+	height:50px;
+	top:0px;
+	left:20px;
+}
+.arrowright{
+	width:50px;
+	height:50px;
+	top:0px;
+	right:20px;
+}
+.svg-img{
+	width:100%;
+	height:100%;	
+} 
+ 
+.jssora031 .a {
+	fill:#fff;
+}
+.jssora031:hover {
+	opacity:.8;
+}
+.jssora031.jssora031dn {
+	opacity:.5;
+}
+.jssora031.jssora031ds { 
+	opacity: .3; pointer-events: none; 
+}
+.jssor_1{
+	position:relative;
+	margin:0 auto;
+	top:0px;
+	left:0px;
+	width:1300px;
+	height:500px;
+	overflow:hidden;
+	visibility:hidden;
+}
+.loading{
+	 position:absolute;
+	 top:0px;
+	 left:0px;
+	 background:url('../img/loading.gif') 
+	 no-repeat 50% 50%;
+	 background-color:rgba(0, 0, 0, 0.7);
+}
+.slides{
+	 cursor:default;
+	 position:relative;
+	 top:0px;
+	 left:0px;
+	 width:1300px;
+	 height:500px;
+	 overflow:hidden;
+}
+.slide-txt-titu{ 	
+	position:absolute;
+ 	top:30vh;
+ 	text-align: center;
+ 	width:100%;
+ 	height: auto;
+ 	z-index:0;
+ 	font-size:50px;
+ 	color:#ffffff;
+ 	line-height:60px;
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,.15);
+ 	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+/********************************************/
+/*					Formulario				*/
+/********************************************/
+.frm{
+	width: 100%;
+	height: auto;
+	padding: 10% 0 10% 0;
+}
+.formulario{
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	box-shadow: 1px .2px .2rem #000;
+	padding: 5% 0 5% 0;
+}
+.btn_mostrar{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-top: 5%;
+}
+.btn_mostrar a{
+	text-align: center;
+    text-decoration: none;
+    padding: 1.5%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10%;
+}
+.table-primary{
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+.table{
+	margin: 10%;
+	box-shadow: 1px .2px .2rem #000;
+	padding: 3%;
+}
+.table thead th{
+	padding: 1% 0 7% 0;
+}
+
+/********************************************/
+/*					FOOTER					*/
+/********************************************/
+.footer{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	padding: 50px 0 20px 0;
+	height: auto;
+  	width: 100%;
+}
+.footer-select{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	padding: 50px 0 20px 0;
+  	width: 100%;	
+  	/*position: absolute;
+	bottom: 0;*/
+}
+.footer-insert{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	padding: 50px 0 20px 0;
+	position: absolute;
+	bottom: 0% !important;
+  	width: 100%;	
+}
+.btn-home {
+	display: inline-block;
+	background-color: white;
+	padding: .5%;
+	border-radius: 10%;
+}
+.btn-home a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+/********************************************/
+/*					Media query				*/
+/********************************************/
+@media screen and (max-width: 480px){
+
+
+
+
+/********************************************/
+/*					FOOTER					*/
+/********************************************/
+	.footer-select{
+		text-align: center;
+		background-color: #000;
+		color: #fff;
+		padding: 35px 0 30px 0;
+		position: absolute;
+		bottom: -280px !important;
+		width: 100%;
+		height: 20px;
+	}
+
+}
+@media screen and (max-width: 767px){
+
+
+
+
+/********************************************/
+/*					FOOTER					*/
+/********************************************/
+	.footer-select{
+		text-align: center;
+		background-color: #000;
+		color: #fff;
+		padding: 50px 0 20px 0;
+	  	width: 100%;	
+	  	position: absolute;
+		bottom: 0;
+	}
+}

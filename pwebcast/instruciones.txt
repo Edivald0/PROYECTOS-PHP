@@ -1,0 +1,29 @@
+La prueba consiste en realizar un pequeño sistema de notas en la que necesito dos módulos simples, 
+1- uno que contenga un formulario en donde puedas enviar la información para guardar en la base de datos 
+2- y otra en donde se muestren los registros de la misma, 
+
+pueden ser en la misma vista lo dejo a tu elección. 
+
+
+Te adjunto una imagen con la estructura de la base de datos y sus campos
+
+
+Accesos de servidor:
+
+Tu ruta:           http://pwebcast.host/edivaldo/
+
+Ftp:                 ftp.pwebcast.host
+
+User:               edivaldo@pwebcast.host
+
+Password:       EdDesarrollo.2017
+
+ ----------------------------------------------------------------------------------------
+
+Base de datos
+
+DB:                 pwebcast_db_edivaldo
+
+User:               pwebcast_edivald
+
+Password:       EdDesarrollo.2017
